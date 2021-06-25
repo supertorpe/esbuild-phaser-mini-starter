@@ -1,5 +1,5 @@
 {
-  "name": "esbuild-react",
+  "name": "esbuild-phaser3-starter",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,12 +11,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "web-vitals": "^0.2.2"
+    "phaser": "3.55.2"
   },
   "devDependencies": {
-    "estrella": "^1.0.9",
+    "estrella": "^1.4.1",
     "serve-http": "^1.0.6"
   }
 }

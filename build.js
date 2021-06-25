@@ -6,13 +6,10 @@ build({
   outfile: "public/index.js",
   bundle: true,
   minify: true,
-  sourcemap: true,
+  sourcemap: false,
   define: {
     "process.env.NODE_ENV": cliopts.watch ? "development" : "production",
-  },
-  loader: {
-    ".js": "jsx",
-  },
+  }
 });
 
 cliopts.watch &&
